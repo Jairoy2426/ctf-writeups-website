@@ -48,6 +48,13 @@ export default function Footer() {
             © {currentYear} All rights reserved
           </p>
         </div>
+
+        {/* Watermark */}
+        <div className="mt-8 pt-6 border-t border-dark-border text-center">
+          <p className="text-dark-text-muted text-xs font-mono tracking-widest">
+            Made by <span className="text-white font-semibold">HERCULES</span>
+          </p>
+        </div>
       </div>
     </footer>
   )
