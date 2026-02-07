@@ -1,6 +1,17 @@
 /**
- * GitHub API utility functions for fetching repository content
- * No authentication required for public repositories
+ * ============================================================================
+ * GitHub API Utilities
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * 
+ * GitHub API utility functions for fetching repository content.
+ * No authentication required for public repositories.
+ * ============================================================================
  */
 
 export interface GitHubFile {

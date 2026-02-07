@@ -1,3 +1,16 @@
+/**
+ * ============================================================================
+ * CTF Writeups - Dashboard Page
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * ============================================================================
+ */
+
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import PlatformCard from '@/components/PlatformCard'

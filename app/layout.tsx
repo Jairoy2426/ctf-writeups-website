@@ -1,3 +1,20 @@
+/**
+ * ============================================================================
+ * CTF Writeups Website
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * GitHub: https://github.com/Jairoy2426
+ * 
+ * This project is licensed under the MIT License.
+ * See the LICENSE file for details.
+ * ============================================================================
+ */
+
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
 import './globals.css'

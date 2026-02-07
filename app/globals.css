@@ -1,3 +1,16 @@
+/**
+ * ============================================================================
+ * CTF Writeups - Global Styles
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * ============================================================================
+ */
+
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;

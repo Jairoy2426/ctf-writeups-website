@@ -1,5 +1,9 @@
 # CTF Writeups Website
 
+> **Made by Hercules** | [GitHub](https://github.com/Jairoy2426)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A production-ready Next.js web application for hosting CTF writeups, dynamically fetched from a public GitHub repository.
 
 ## Features
