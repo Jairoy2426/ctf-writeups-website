@@ -1,4 +1,18 @@
+/**
+ * ============================================================================
+ * Footer Component
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * ============================================================================
+ */
+
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -19,8 +33,14 @@ export default function Footer() {
 
         {/* Footer Links */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex items-center gap-2">
-            <span className="text-xl font-bold text-dark-text">CTF</span>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/logo.png"
+              alt="Hercules Logo"
+              width={32}
+              height={32}
+              className="rounded"
+            />
             <span className="text-dark-text-muted">Writeups</span>
           </div>
 
@@ -51,12 +71,20 @@ export default function Footer() {
 
         {/* Watermark */}
         <div className="mt-8 pt-6 border-t border-dark-border text-center">
-          <p className="text-dark-text-muted text-xs font-mono tracking-widest">
-            Made by <span className="text-white font-semibold">HERCULES</span>
-          </p>
+          <div className="flex items-center justify-center gap-2">
+            <Image
+              src="/logo.png"
+              alt="Hercules Logo"
+              width={20}
+              height={20}
+              className="rounded opacity-70"
+            />
+            <p className="text-dark-text-muted text-xs font-mono tracking-widest">
+              Made by <span className="text-white font-semibold">HERCULES</span>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
   )
 }
-

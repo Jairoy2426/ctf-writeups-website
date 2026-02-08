@@ -20,8 +20,12 @@ import type { ReactNode } from 'react'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CTF Writeups',
+  title: 'CTF Writeups | Hercules',
   description: 'A collection of CTF writeups and walkthroughs for educational purposes',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({

@@ -1,4 +1,18 @@
+/**
+ * ============================================================================
+ * Navigation Component
+ * ============================================================================
+ * 
+ * @author Hercules (Jairoy2426)
+ * @license MIT
+ * @copyright 2026 Hercules
+ * 
+ * Made by Hercules
+ * ============================================================================
+ */
+
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   return (
@@ -6,9 +20,13 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-8 h-8 bg-white rounded flex items-center justify-center">
-              <span className="text-black font-bold text-sm">CTF</span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="Hercules Logo"
+              width={36}
+              height={36}
+              className="rounded"
+            />
             <span className="text-lg font-semibold text-dark-text group-hover:text-white transition-colors">
               Writeups
             </span>
