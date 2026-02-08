@@ -64,7 +64,7 @@ export async function fetchDirectory(path: string = ''): Promise<GitHubFile[]> {
   try {
     const url = `${getApiBaseUrl()}/${path}`
     const response = await fetch(url, {
-      next: { revalidate: 3600 }, // Cache for 1 hour
+      next: { revalidate: 60 }, // Cache for 1 minute
     })
 
     if (!response.ok) {
@@ -90,7 +90,7 @@ export async function fetchFileContent(path: string): Promise<string> {
   try {
     const url = getRawContentUrl(path)
     const response = await fetch(url, {
-      next: { revalidate: 3600 }, // Cache for 1 hour
+      next: { revalidate: 60 }, // Cache for 1 minute
     })
 
     if (!response.ok) {
